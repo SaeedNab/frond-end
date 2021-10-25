@@ -18,6 +18,8 @@
 
 />
 <link rel="stylesheet" href="assets/css/styles.css"/>
+<link rel="stylesheet" href="assets/css/audioplayer.css">
+
 <body>
 <header>
   <div class="container">
@@ -231,6 +233,21 @@
 </footer>
 
 <script src="assets/js/wow.min.js"></script>
+<script src="assets/js/audioplayer.js"></script>
+
+<script>
+  $('audio').audioPlayer({
+
+classPrefix:'audioplayer',
+
+strPlay:'',
+
+strPause:'',
+
+strVolume:''
+
+});
+</script>
 </body>
 
 </html>
